@@ -1,0 +1,33 @@
+##level 4: simple earth with anelastic ufo
+##world kind
+0
+
+##external gravity field and electric field: 
+#[gravity.x	gravity.y 	gravity.z	electric.x	electric.y	electric.z	magnetic.x	magnetic.y	magnetic.z]
+  0		0		0		0		0		0		0		0		0
+
+##list of objects (false=0 true=1):
+#[kind	mass	pos.x	pos.y	pos.z	vel.x	vel.y	vel.z	charge	anelas	fixed	ghost	red	green	blue	(radius)] 
+
+#[0]ufo
+3	0.1	0	3.6	0	0	5	0	0	0	0	0	0	255	0	0.5
+
+#[0]teapot
+1	0.02	0	2.2	0	0	0	0	0	0	0	0	255	255	255	0.2
+
+#[1]P1 cannonball 
+0	0.05	0	0	0	-10	0	0	0	0	0	0	255	0	0	0.1
+
+#[2]P1 cannon
+2	30	6.5	0.5	0	0	0	0	0	0	0	0	220	20	60	0.5	180	0
+
+#[3]P2 cannonball
+0	0.05	0	0	0	-10	0	0	0	0	0	0	255	128	0	0.1
+
+#[4]P2 cannon
+2	30	-6.5	0.5	0	0	0	0	0	0	0	0	139	90	0	0.5	0	0
+
+#[5]earth
+0	5.9742e24  0	-6.3728e6  0	0	0	0	0	0	0	0	0	0	0	6.3728e6
+
+

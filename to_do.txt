@@ -1,0 +1,8 @@
+TO DO LIST:
+- evitare di richiedere privilegi da sudo (cambiare la porta da 13 a 400 o che, e forse sistemare la chiamata a popen)
+- 2P local, le palle oltre che fixed devono essere ghost quando stanno nel cannone, per evitare spiacevoli sorprese quando si tenta di sparare
+- implementare tutto con il dynamic cast (usando try e catch) e far sparire il metodo get_kind(), quindi rendere statica l'allocazione di tutti i physic object dentro all_object (che non deve più essere un vettore di puntatori). [ma questo punto anche no dai...]
+- aggiungere una linea che indichi la direzione dell'ufo (necessario per il net multiplayer)
+- altri livelli ancora più belli
+- prendere invece dell'IP il nome del computer e risolverlo in automatico con qualche metodo boostiano, per avere l'indirizzo locale.
+- ... quello che vi viene in mente, ricordate il motto: "complicabile a piacere!"

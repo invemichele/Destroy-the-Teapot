@@ -1,0 +1,32 @@
+##level 3: Laboratory with earth's gravity and real walls + small ufo
+##world kind
+3
+
+##external gravity field and electric field: 
+#[gravity.x	gravity.y 	gravity.z	electric.x	electric.y	electric.z	magnetic.x	magnetic.y	magnetic.z]
+  0		0		0		0		0		0		0		100		0
+
+##list of objects (false=0 true=1):
+#[kind	mass	pos.x	pos.y	pos.z	vel.x	vel.y	vel.z	charge	anelas	fixed	ghost	red	green	blue	(radius)] 
+
+#[0]teapot
+1	0.02	3	3	0	0	0	0	0	0	0	0	255	255	255	0.2
+
+#[1]P1 cannonball
+0	0.05	0	0	0	-4	0	0	0	0	0	0	250	128	0	0.1
+
+#[2]P1 cannon
+2	30	-6.5	0.5	0	0	0	0	0	0	0	0	139	90	0	0.5	0	0
+
+#[3]wall
+10	1000	-8	-3	-20	0	0	0	0	0	1	0	0	76	153	-8 -3 10 -8 20 10  -8 20 -20
+
+#[4]wall
+10	1000	8	-3	-20	0	0	0	0	0	1	0	0	76	153	8 -3 10	8 20 10  8 20 -20
+
+#[6]earth
+0	5.9742e24  0	-6.3728e6  0	0	0	0	0	0	0	0	0	0	0	6.3728e6
+
+#[7]P1 ufo
+3	0.05	3	0.2	1	-5	0	0	2e-3	0	0	0	0	255	0	0.2
+
